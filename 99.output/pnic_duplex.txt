@@ -1,0 +1,576 @@
+############################################
+infra-fzone-mpm1.virt.daumkakao.io
+############################################
+
+Name   Speed Duplex Link
+----   ----- ------ ----
+vmnic0 1000  Full   Up  
+vmnic1 1000  Full   Up  
+vmnic2 0     Half   Down
+vmnic3 0     Half   Down
+
+
+############################################
+infra-fzone-mpm2.virt.daumkakao.io
+############################################
+
+Name   Speed Duplex Link
+----   ----- ------ ----
+vmnic0 1000  Full   Up  
+vmnic1 1000  Full   Up  
+vmnic2 0     Half   Down
+vmnic3 0     Half   Down
+
+
+############################################
+infra-fzone-mpm3.virt.daumkakao.io
+############################################
+
+Name   Speed Duplex Link
+----   ----- ------ ----
+vmnic0 1000  Full   Up  
+vmnic1 1000  Full   Up  
+vmnic2 0     Half   Down
+vmnic3 0     Half   Down
+
+
+############################################
+infra-fzone-mpm4.virt.daumkakao.io
+############################################
+
+Name   Speed Duplex Link
+----   ----- ------ ----
+vmnic0 1000  Full   Up  
+vmnic1 1000  Full   Up  
+vmnic2 0     Half   Down
+vmnic3 0     Half   Down
+
+
+############################################
+infra-fzone-mpm5.virt.daumkakao.io
+############################################
+
+Name   Speed Duplex Link
+----   ----- ------ ----
+vmnic0 1000  Full   Up  
+vmnic1 1000  Full   Up  
+vmnic2 0     Half   Down
+vmnic3 0     Half   Down
+
+
+############################################
+infra-fzone-mpm6.virt.daumkakao.io
+############################################
+
+Name   Speed Duplex Link
+----   ----- ------ ----
+vmnic0 1000  Full   Up  
+vmnic1 1000  Full   Up  
+vmnic2 0     Half   Down
+vmnic3 0     Half   Down
+
+
+############################################
+infra-szone-gpm1.virt.daumkakao.io
+############################################
+
+Name   Speed Duplex Link
+----   ----- ------ ----
+vmnic0 1000  Full   Up  
+vmnic1 100   Full   Up  
+vmnic2 0     Half   Down
+vmnic3 0     Half   Down
+
+
+############################################
+infra-szone-gpm2.virt.daumkakao.io
+############################################
+
+Name   Speed Duplex Link
+----   ----- ------ ----
+vmnic0 1000  Full   Up  
+vmnic1 100   Full   Up  
+vmnic2 0     Half   Down
+vmnic3 0     Half   Down
+
+
+############################################
+infra-szone-gpm3.virt.daumkakao.io
+############################################
+
+Name   Speed Duplex Link
+----   ----- ------ ----
+vmnic0 1000  Full   Up  
+vmnic1 100   Full   Up  
+vmnic2 0     Half   Down
+vmnic3 0     Half   Down
+
+
+############################################
+infra-szone-gpm4.virt.daumkakao.io
+############################################
+
+Name   Speed Duplex Link
+----   ----- ------ ----
+vmnic0 1000  Full   Up  
+vmnic1 100   Full   Up  
+vmnic2 0     Half   Down
+vmnic3 0     Half   Down
+
+
+############################################
+infra-szone-gpm5.virt.daumkakao.io
+############################################
+
+Name   Speed Duplex Link
+----   ----- ------ ----
+vmnic0 1000  Full   Up  
+vmnic1 1000  Full   Up  
+vmnic2 0     Half   Down
+vmnic3 0     Half   Down
+
+
+############################################
+infra-szone-gpm6.virt.daumkakao.io
+############################################
+
+Name   Speed Duplex Link
+----   ----- ------ ----
+vmnic0 1000  Full   Up  
+vmnic1 100   Full   Up  
+vmnic2 0     Half   Down
+vmnic3 0     Half   Down
+
+
+############################################
+infra-szone-gpm7.virt.daumkakao.io
+############################################
+
+Name   Speed Duplex Link
+----   ----- ------ ----
+vmnic0 1000  Full   Up  
+vmnic1 100   Full   Up  
+vmnic2 0     Half   Down
+vmnic3 0     Half   Down
+
+
+############################################
+infra-szone-gpm8.virt.daumkakao.io
+############################################
+
+Name   Speed Duplex Link
+----   ----- ------ ----
+vmnic0 1000  Full   Up  
+vmnic1 100   Full   Up  
+vmnic2 0     Half   Down
+vmnic3 0     Half   Down
+
+
+############################################
+infra-szone-gpm9.virt.daumkakao.io
+############################################
+
+Name   Speed Duplex Link
+----   ----- ------ ----
+vmnic0 1000  Full   Up  
+vmnic1 1000  Full   Up  
+vmnic2 0     Half   Down
+vmnic3 0     Half   Down
+
+
+############################################
+infra-szone-gpm10.virt.daumkakao.io
+############################################
+
+Name   Speed Duplex Link
+----   ----- ------ ----
+vmnic0 1000  Full   Up  
+vmnic1 100   Full   Up  
+vmnic2 0     Half   Down
+vmnic3 0     Half   Down
+
+
+############################################
+infra-szone-gpm11.virt.daumkakao.io
+############################################
+
+Name   Speed Duplex Link
+----   ----- ------ ----
+vmnic0 1000  Full   Up  
+vmnic1 1000  Full   Up  
+vmnic2 0     Half   Down
+vmnic3 0     Half   Down
+
+
+############################################
+infra-szone-gpm12.virt.daumkakao.io
+############################################
+
+Name   Speed Duplex Link
+----   ----- ------ ----
+vmnic0 1000  Full   Up  
+vmnic1 100   Full   Up  
+vmnic2 0     Half   Down
+vmnic3 0     Half   Down
+
+
+############################################
+infra-szone-gpm13.virt.daumkakao.io
+############################################
+
+Name   Speed Duplex Link
+----   ----- ------ ----
+vmnic0 1000  Full   Up  
+vmnic1 1000  Full   Up  
+vmnic2 0     Half   Down
+vmnic3 0     Half   Down
+
+
+############################################
+infra-szone-gpm14.virt.daumkakao.io
+############################################
+
+Name   Speed Duplex Link
+----   ----- ------ ----
+vmnic0 1000  Full   Up  
+vmnic1 1000  Full   Up  
+vmnic2 0     Half   Down
+vmnic3 0     Half   Down
+
+
+############################################
+infra-szone-gpm15.virt.daumkakao.io
+############################################
+
+Name   Speed Duplex Link
+----   ----- ------ ----
+vmnic0 1000  Full   Up  
+vmnic1 100   Full   Up  
+vmnic2 0     Half   Down
+vmnic3 0     Half   Down
+
+
+############################################
+infra-szone-gpm16.virt.daumkakao.io
+############################################
+
+Name   Speed Duplex Link
+----   ----- ------ ----
+vmnic0 1000  Full   Up  
+vmnic1 1000  Full   Up  
+vmnic2 0     Half   Down
+vmnic3 0     Half   Down
+
+
+############################################
+infra-szone-gpm17.virt.daumkakao.io
+############################################
+
+Name   Speed Duplex Link
+----   ----- ------ ----
+vmnic0 1000  Full   Up  
+vmnic1 100   Full   Up  
+vmnic2 0     Half   Down
+vmnic3 0     Half   Down
+
+
+############################################
+infra-szone-gpm18.virt.daumkakao.io
+############################################
+
+Name   Speed Duplex Link
+----   ----- ------ ----
+vmnic0 1000  Full   Up  
+vmnic1 1000  Full   Up  
+vmnic2 0     Half   Down
+vmnic3 0     Half   Down
+
+
+############################################
+infra-szone-gpm19.virt.daumkakao.io
+############################################
+
+Name   Speed Duplex Link
+----   ----- ------ ----
+vmnic0 1000  Full   Up  
+vmnic1 1000  Full   Up  
+vmnic2 0     Half   Down
+vmnic3 0     Half   Down
+
+
+############################################
+infra-szone-gpm101.virt.daumkakao.io
+############################################
+
+Name   Speed Duplex Link
+----   ----- ------ ----
+vmnic0 1000  Full   Up  
+vmnic1 1000  Full   Up  
+vmnic2 0     Half   Down
+vmnic3 0     Half   Down
+
+
+############################################
+infra-szone-gpm102.virt.daumkakao.io
+############################################
+
+Name   Speed Duplex Link
+----   ----- ------ ----
+vmnic0 1000  Full   Up  
+vmnic1 100   Full   Up  
+vmnic2 0     Half   Down
+vmnic3 0     Half   Down
+
+
+############################################
+infra-szone-ppm1.virt.daumkakao.io
+############################################
+
+Name   Speed Duplex Link
+----   ----- ------ ----
+vmnic0 1000  Full   Up  
+vmnic1 1000  Full   Up  
+vmnic2 0     Half   Down
+vmnic3 0     Half   Down
+
+
+############################################
+infra-szone-ppm2.virt.daumkakao.io
+############################################
+
+Name   Speed Duplex Link
+----   ----- ------ ----
+vmnic0 1000  Full   Up  
+vmnic1 1000  Full   Up  
+vmnic2 0     Half   Down
+vmnic3 0     Half   Down
+
+
+############################################
+infra-szone-ppm3.virt.daumkakao.io
+############################################
+
+Name   Speed Duplex Link
+----   ----- ------ ----
+vmnic0 1000  Full   Up  
+vmnic1 1000  Full   Up  
+vmnic2 0     Half   Down
+vmnic3 0     Half   Down
+
+
+############################################
+infra-szone-ppm4.virt.daumkakao.io
+############################################
+
+Name   Speed Duplex Link
+----   ----- ------ ----
+vmnic0 1000  Full   Up  
+vmnic1 0     Full   Down
+vmnic2 0     Half   Down
+vmnic3 0     Half   Down
+
+
+############################################
+infra-szone-ppm5.virt.daumkakao.io
+############################################
+
+Name   Speed Duplex Link
+----   ----- ------ ----
+vmnic0 1000  Full   Up  
+vmnic1 1000  Full   Up  
+vmnic2 0     Half   Down
+vmnic3 0     Half   Down
+
+
+############################################
+infra-szone-ppm6.virt.daumkakao.io
+############################################
+
+Name   Speed Duplex Link
+----   ----- ------ ----
+vmnic0 1000  Full   Up  
+vmnic1 0     Full   Down
+vmnic2 0     Half   Down
+vmnic3 0     Half   Down
+
+
+############################################
+infra-szone-ppm7.virt.daumkakao.io
+############################################
+
+Name   Speed Duplex Link
+----   ----- ------ ----
+vmnic0 1000  Full   Up  
+vmnic1 0     Full   Down
+vmnic2 0     Half   Down
+vmnic3 0     Half   Down
+
+
+############################################
+infra-szone-ppm8.virt.daumkakao.io
+############################################
+
+Name   Speed Duplex Link
+----   ----- ------ ----
+vmnic0 1000  Full   Up  
+vmnic1 1000  Full   Up  
+vmnic2 0     Half   Down
+vmnic3 0     Half   Down
+
+
+############################################
+infra-szone-ppm9.virt.daumkakao.io
+############################################
+
+Name   Speed Duplex Link
+----   ----- ------ ----
+vmnic0 1000  Full   Up  
+vmnic1 1000  Full   Up  
+vmnic2 0     Half   Down
+vmnic3 0     Half   Down
+
+
+############################################
+infra-szone-ppm10.virt.daumkakao.io
+############################################
+
+Name   Speed Duplex Link
+----   ----- ------ ----
+vmnic0 1000  Full   Up  
+vmnic1 1000  Full   Up  
+vmnic2 0     Half   Down
+vmnic3 0     Half   Down
+
+
+############################################
+infra-szone-ppm11.virt.daumkakao.io
+############################################
+
+Name   Speed Duplex Link
+----   ----- ------ ----
+vmnic0 1000  Full   Up  
+vmnic1 1000  Full   Up  
+vmnic2 0     Half   Down
+vmnic3 0     Half   Down
+
+
+############################################
+infra-szone-ppm12.virt.daumkakao.io
+############################################
+
+Name   Speed Duplex Link
+----   ----- ------ ----
+vmnic0 1000  Full   Up  
+vmnic1 0     Full   Down
+vmnic2 0     Half   Down
+vmnic3 0     Half   Down
+
+
+############################################
+infra-szone-ppm13.virt.daumkakao.io
+############################################
+
+Name   Speed Duplex Link
+----   ----- ------ ----
+vmnic0 1000  Full   Up  
+vmnic1 0     Full   Down
+vmnic2 0     Half   Down
+vmnic3 0     Half   Down
+
+
+############################################
+infra-szone-ppm14.virt.daumkakao.io
+############################################
+
+Name   Speed Duplex Link
+----   ----- ------ ----
+vmnic0 1000  Full   Up  
+vmnic1 1000  Full   Up  
+vmnic2 0     Half   Down
+vmnic3 0     Half   Down
+
+
+############################################
+infra-szone-ppm15.virt.daumkakao.io
+############################################
+
+Name   Speed Duplex Link
+----   ----- ------ ----
+vmnic0 1000  Full   Up  
+vmnic1 1000  Full   Up  
+vmnic2 0     Half   Down
+vmnic3 0     Half   Down
+
+
+############################################
+infra-szone-ppm16.virt.daumkakao.io
+############################################
+
+Name   Speed Duplex Link
+----   ----- ------ ----
+vmnic0 1000  Full   Up  
+vmnic1 0     Full   Down
+vmnic2 0     Half   Down
+vmnic3 0     Half   Down
+
+
+############################################
+infra-szone-ppm17.virt.daumkakao.io
+############################################
+
+Name   Speed Duplex Link
+----   ----- ------ ----
+vmnic0 1000  Full   Up  
+vmnic1 1000  Full   Up  
+vmnic2 0     Half   Down
+vmnic3 0     Half   Down
+
+
+############################################
+infra-szone-ppm18.virt.daumkakao.io
+############################################
+
+Name   Speed Duplex Link
+----   ----- ------ ----
+vmnic0 1000  Full   Up  
+vmnic1 1000  Full   Up  
+vmnic2 0     Half   Down
+vmnic3 0     Half   Down
+
+
+############################################
+infra-szone-ppm19.virt.daumkakao.io
+############################################
+
+Name   Speed Duplex Link
+----   ----- ------ ----
+vmnic0 1000  Full   Up  
+vmnic1 1000  Full   Up  
+vmnic2 0     Half   Down
+vmnic3 0     Half   Down
+
+
+############################################
+infra-szone-ppm101.virt.daumkakao.io
+############################################
+
+Name   Speed Duplex Link
+----   ----- ------ ----
+vmnic0 1000  Full   Up  
+vmnic1 1000  Full   Up  
+vmnic2 0     Half   Down
+vmnic3 0     Half   Down
+
+
+############################################
+infra-szone-ppm102.virt.daumkakao.io
+############################################
+
+Name   Speed Duplex Link
+----   ----- ------ ----
+vmnic0 1000  Full   Up  
+vmnic1 0     Full   Down
+vmnic2 0     Half   Down
+vmnic3 0     Full   Down
+
+

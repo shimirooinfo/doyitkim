@@ -1,0 +1,11 @@
+name,host,datastore,ip,gateway,datastore1
+d50-s9p1-vm1,d50-s9-pm1.virt.daumcorp.com,d50-s9-lun1,10.28.170.11,10.28.170.1,d50-s9-data
+d50-s9p1-vm2,d50-s9-pm1.virt.daumcorp.com,d50-s9-lun1,10.28.170.12,10.28.170.1,d50-s9-data
+d50-s9p1-vm3,d50-s9-pm1.virt.daumcorp.com,d50-s9-lun1,10.28.170.13,10.28.170.1,d50-s9-data
+d50-s9p1-vm4,d50-s9-pm1.virt.daumcorp.com,d50-s9-lun1,10.28.170.14,10.28.170.1,d50-s9-data
+d50-s9p1-vm5,d50-s9-pm1.virt.daumcorp.com,d50-s9-lun1,10.28.170.15,10.28.170.1,d50-s9-data
+d50-s9p1-vm6,d50-s9-pm1.virt.daumcorp.com,d50-s9-lun1,10.28.170.16,10.28.170.1,d50-s9-data
+d50-s9p1-vm7,d50-s9-pm1.virt.daumcorp.com,d50-s9-lun1,10.28.170.17,10.28.170.1,d50-s9-data
+d50-s9p1-vm8,d50-s9-pm1.virt.daumcorp.com,d50-s9-lun1,10.28.170.18,10.28.170.1,d50-s9-data
+d50-s9p1-vm9,d50-s9-pm1.virt.daumcorp.com,d50-s9-lun1,10.28.170.19,10.28.170.1,d50-s9-data
+d50-s9p1-vm10,d50-s9-pm1.virt.daumcorp.com,d50-s9-lun1,10.28.170.20,10.28.170.1,d50-s9-data
