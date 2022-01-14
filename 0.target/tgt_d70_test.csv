@@ -1,0 +1,4 @@
+ip,hname,alias,location,cluster,datastore,iscsi1,iscsi2,tgt1,tgt2,tgt3,tgt4,vmotion,path,FileName,storepath
+10.10.11.154,,,,test111,datastore1,,,,,,,,C:\Jaeseong\JaeSKim\ISO\ESXi65\,VMware-ESXi-6.5.0-4564106-depot.zip,datastore1
+10.10.11.155,,,,test111,datastore2,,,,,,,,C:\Jaeseong\JaeSKim\ISO\ESXi65\,VMware-ESXi-6.5.0-4564106-depot.zip,datastore2
+10.10.11.156,,,,test111,datastore3,,,,,,,,C:\Jaeseong\JaeSKim\ISO\ESXi65\,VMware-ESXi-6.5.0-4564106-depot.zip,datastore3
