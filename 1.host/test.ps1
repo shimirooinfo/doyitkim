@@ -1,0 +1,25 @@
+#
+# PowerShell Script based for Mac
+#
+#
+# target 파일을 매개변수로 받을때 아래 주석 해제
+#
+#Param(
+#        [Parameter(Mandatory=$True,Position=1)]
+#        [string]$targetfile
+#)
+# target 파일을 매개변수로 받을때 아래 주석 처리
+$TgtFile = "../0.target/tgt_d80_all.csv"
+
+$VcInfoFile = "$HOME/scripts/0.target/vc_iroo.csv"
+#$VcInfoFile = "../0.target/vc_kko_vc70.csv"
+
+# Connect to the vCenter Server
+foreach ($VcInfo in (import-csv -path $VcInfoFile))
+{
+        Write-host "Connecting to vCenter Server: " -ForegroundColor Green -NoNewline; Write-Host $VcInfo.vc -ForegroundColor Yellow
+        Connect-VIServer -Server $VcInfo.vc -user $VcInfo.user -password $VcInfo.passwd -Protocol https
+}
+
+	get-vm
+Disconnect-VIServer -Server * -Force -confirm:$false
