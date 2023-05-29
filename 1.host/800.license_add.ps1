@@ -1,8 +1,8 @@
 #
 # add host to vcenter
 #
-$VcInfoFile = "../0.target/vcenter_vc70.csv"
-$TgtFile = "../0.target/tgt_s80_all.csv"
+$VcInfoFile = "$HOME/scripts/0.target/vcenter_vc70.csv"
+$TgtFile = "$HOME/scripts/0.target/tgt_s80_all.csv"
 #
 # Connect to the vCenter Server
 "{0} Connecting to vcenter server..."

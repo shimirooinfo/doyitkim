@@ -10,10 +10,10 @@
 #        [string]$targetfile
 #)
 # target 파일을 매개변수로 받을때 아래 주석 처리
-$TgtFile = "../0.target/tgt_d80_all.csv"
+$TgtFile = "$HOME/scripts/0.target/tgt_d80_all.csv"
 
-#$VcInfoFile = "../0.target/vc_iroo.csv"
-$VcInfoFile = "../0.target/vc_kko_vc70.csv"
+#$VcInfoFile = "$HOME/scripts/0.target/vc_iroo.csv"
+$VcInfoFile = "$HOME/scripts/0.target/vc_kko_vc70.csv"
 
 # Connect to the vCenter Server
 foreach ($VcInfo in (import-csv -path $VcInfoFile))
