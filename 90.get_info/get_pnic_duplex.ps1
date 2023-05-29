@@ -4,8 +4,8 @@
 $OutputFile = "/Users/yhkim/Documents/scripts.v5/99.Output/pnic_duplex.txt"
 #
 $ScriptRoot = "/Users/yhkim/Documents/scripts.v5/"
-$VcInfoFile = $ScriptRoot + "0.Target/vcenter_kakao.csv"
-$TgtFile = $ScriptRoot + "0.Target/tgt_szone.csv"
+
+. "$HOME/scripts/globalval.ps1"
 
 #
 # Connect to the vCenter Server

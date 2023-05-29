@@ -1,8 +1,9 @@
 # 
 # ESXi LUN Path 정보 수집 Scripts
 #
-$VcInfoFile = "../0.target/vcenter_vc70.csv"
-$TgtFile = "../0.target/tgt_s80_all.csv"
+
+. "$HOME/scripts/globalval.ps1"
+
 $OutputFile ="../99.output/info-lunpath.txt"
 
 $testpath = test-path $OutputFile

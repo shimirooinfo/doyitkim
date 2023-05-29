@@ -5,8 +5,7 @@
 $unload_module1="bnx2i"
 $unload_module2="fcoe"
 
-$VcInfoFile = "../0.target/vcenter_vc70.csv"
-$TgtFile = "../0.target/tgt_d80_all.csv"
+. "$HOME/scripts/globalval.ps1"
 #
 # Connect to the vCenter Server
 "{0} Connecting to vcenter server..."

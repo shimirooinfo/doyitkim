@@ -6,8 +6,8 @@ $user = "seadmin@vsphere.local"
 $password = "Vmware1!"
 $vcenter = "10.141.252.247"
 #
-$TgtFile ="../0.target/target100.csv"
-$OutputFile ="../90.output/info-lunpath.txt"
+
+. "$HOME/scripts/globalval.ps1"
 
 # Connect to the vCenter Server
 "{0} Connecting to vcenter server..."

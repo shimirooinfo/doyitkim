@@ -2,8 +2,9 @@
 # ESXi IQN ¼öÁý Scripts
 #
 $device = "vmhba40"
-$VcInfoFile = "../0.target/vcenter_vc70.csv"
-$TgtFile = "../0.target/tgt_s80_all.csv"
+
+. "$HOME/scripts/globalval.ps1"
+
 #
 # Connect to the vCenter Server
 "{0} Connecting to vcenter server..."

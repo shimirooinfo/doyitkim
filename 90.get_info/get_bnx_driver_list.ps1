@@ -1,8 +1,9 @@
 #
 # ESXi bnx2x Module 로딩 여부 수집 Scripts
 #
-$VcInfoFile = "../0.target/vcenter_vc70.csv"
-$TgtFile = "../0.target/tgt_d80_all.csv"
+
+. "$HOME/scripts/globalval.ps1"
+
 $OutputFile = "../99.output/info-vib_list.txt"
 #
 # Connect to the vCenter Server
