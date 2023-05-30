@@ -1,3 +1,0 @@
-ip,hname,alias,location,cluster,datastore,iscsi1,iscsi2,tgt1,tgt2,tgt3,tgt4,vmotion,path,FileName
-10.10.10.201,irvs01,irvs01.iroo.int,MGMT-DC,MGMT-CLST,datastore70-s1-pm1,10.61.238.21,10.61.239.21,10.61.238.151,10.61.239.151,10.61.238.181,10.61.239.181,10.161.243.21,/vmfs/volumes/d70-s1-lun1/,QLG-bnx-6.0-offline_bundle-5105386.zip
-10.10.10.202,irvs02,irvs02.iroo.int,MGMT-DC,MGMT-CLST,datastore70-s1-pm1,10.61.238.21,10.61.239.21,10.61.238.151,10.61.239.151,10.61.238.181,10.61.239.181,10.161.243.21,/vmfs/volumes/d70-s1-lun1/,QLG-bnx-6.0-offline_bundle-5105386.zip

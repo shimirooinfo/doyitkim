@@ -1,0 +1,2 @@
+ip,hname,alias,location,cluster,datastore,iscsi1,iscsi2,tgt1,tgt2,tgt3,tgt4,vmotion,path,FileName,clstlist
+10.93.114.21,d80-s1-pm1,d80-s1-pm1.virt.onkakao.net,datacenter80,d80-s01-cluster,datastore80-s1-pm1,10.93.112.21,10.93.113.21,10.93.112.151,10.93.113.151,10.93.112.181,10.93.113.181,10.93.115.21,/vmfs/volumes/d80-s1-lun1/,VMware-VMvisor-Installer-7.0.0.update02-17867351.x86_64-DellEMC_Customized-A05.zip,d80-s01-cluster

@@ -1,5 +1,0 @@
-ip,hname,alias,location,cluster,datastore,iscsi1,iscsi2,tgt1,tgt2,tgt3,tgt4,vmotion,clstlist
-,d70-poctest-pm1,d70-poctest-pm1.virt.daumkakao.io,datacenter,VIC_CLST,datastore70-poctest-pm1,,,,,,,,d10-s01-cluster
-,d70-poctest-pm2,d70-poctest-pm2.virt.daumkakao.io,datacenter,VIC_CLST,datastore70-poctest-pm2,,,,,,,,d10-s02-cluster
-,d70-poctest-pm3,d70-poctest-pm3.virt.daumkakao.io,datacenter,VIC_CLST,datastore70-poctest-pm3,,,,,,,,d10-s03-cluster
-,d70-poctest-pm4,d70-poctest-pm4.virt.daumkakao.io,datacenter,VIC_CLST,datastore70-poctest-pm4,,,,,,,,d10-s04-cluster

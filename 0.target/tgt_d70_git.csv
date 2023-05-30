@@ -1,5 +1,0 @@
-ip,hname,alias,location,cluster,datastore,iscsi1,iscsi2,tgt1,tgt2,tgt3,tgt4,vmotion,path,FileName
-10.161.240.220,d70-git-pm1,d70-git-pm1.virt.onkakao.net,AY-mgmt,d70-git-cluster,datastore70-git-pm1,10.61.238.21,10.61.239.21,10.61.238.151,10.61.239.151,10.61.238.181,10.61.239.181,10.161.243.21,/vmfs/volumes/d70-s1-lun1/,QLG-bnx-6.0-offline_bundle-5105386.zip
-10.161.240.221,d70-git-pm2,d70-git-pm2.virt.onkakao.net,AY-mgmt,d70-git-cluster,datastore70-git-pm2,10.61.238.22,10.61.239.22,10.61.238.151,10.61.239.151,10.61.238.181,10.61.239.181,10.161.243.22,/vmfs/volumes/d70-s1-lun1/,QLG-bnx-6.0-offline_bundle-5105386.zip
-10.161.240.222,d70-git-pm3,d70-git-pm3.virt.onkakao.net,AY-mgmt,d70-git-cluster,datastore70-git-pm3,10.61.238.23,10.61.239.23,10.61.238.151,10.61.239.151,10.61.238.181,10.61.239.181,10.161.243.23,/vmfs/volumes/d70-s1-lun1/,QLG-bnx-6.0-offline_bundle-5105386.zip
-10.161.240.223,d70-git-pm4,d70-git-pm4.virt.onkakao.net,AY-mgmt,d70-git-cluster,datastore70-git-pm3,10.61.238.23,10.61.239.23,10.61.238.151,10.61.239.151,10.61.238.181,10.61.239.181,10.161.243.23,/vmfs/volumes/d70-s1-lun1/,QLG-bnx-6.0-offline_bundle-5105386.zip

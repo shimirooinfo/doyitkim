@@ -1,5 +1,0 @@
-ip,hname,alias,location,cluster,datastore,iscsi1,iscsi2,tgt1,tgt2,tgt3,tgt4,vmotion,path,FileName
-10.161.240.232,d70-dev-pm1,d70-dev-pm1.virt.daumkakao.io,datacenter70,d70-dev-cluster,datastore70-dev-pm1,,,,,,,,/vmfs/volumes/d70-s1-lun1/,QLG-bnx-6.0-offline_bundle-5105386.zip
-10.161.240.233,d70-dev-pm2,d70-dev-pm2.virt.daumkakao.io,datacenter70,d70-dev-cluster,datastore70-dev-pm2,,,,,,,,/vmfs/volumes/d70-s1-lun1/,QLG-bnx-6.0-offline_bundle-5105386.zip
-10.161.240.234,d70-dev-pm3,d70-dev-pm3.virt.daumkakao.io,datacenter70,d70-dev-cluster,datastore70-dev-pm3,,,,,,,,/vmfs/volumes/d70-s1-lun1/,QLG-bnx-6.0-offline_bundle-5105386.zip
-10.161.240.235,d70-dev-pm4,d70-dev-pm4.virt.daumkakao.io,datacenter70,d70-dev-cluster,datastore70-dev-pm4,,,,,,,,/vmfs/volumes/d70-s1-lun1/,QLG-bnx-6.0-offline_bundle-5105386.zip
