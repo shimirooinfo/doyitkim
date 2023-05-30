@@ -1,5 +1,5 @@
 #
-# Set default path policy
+# Create New Cluster or Remove Cluster
 #
 # target 파일을 매개변수로 받을때 아래 주석 해제
 #
@@ -20,10 +20,6 @@ foreach ($VcInfo in (import-csv -path $VcInfoFile))
 
 foreach ($f in (import-csv -path $TgtFile))
 {
-	echo $f.alias
-	$esxcli = Get-Esxcli -vmhost $f.alias -V2
-	$TmpArgs = $esxcli.hardware.power.policy.set.CreateArgs()
-	$TmpArgs.id = 1
-	$esxcli.hardware.power.policy.set.invoke($TmpArgs)
+	Remove-Cluster -Location $f.location -Name $f.clstlist
 }
 Disconnect-VIServer -Server * -Force -confirm:$false
