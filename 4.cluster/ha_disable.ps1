@@ -23,4 +23,5 @@ foreach ($f in (import-csv -path $TgtFile))
 	#
 	get-cluster $f.cluster | Set-cluster -HAenabled:$false -confirm:$false 
 }
+
 Disconnect-VIServer -Server * -Force -confirm:$false
