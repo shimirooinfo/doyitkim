@@ -118,10 +118,10 @@ do
                 invoke-expression -Command $PSScriptRoot/3.storage/310.set_default_path_policy-v2.ps1
            } ‘41’ {
                 cls
-                invoke-expression -Command $PSScriptRoot/1.host/999.host-enter_maintenance_mode.ps1
+                invoke-expression -Command $PSScriptRoot/1.host/980.host-enter_maintenance_mode.ps1
            } ‘42’ {
                 cls
-                invoke-expression -Command $PSScriptRoot/1.host/999.host-exit_maintenance_mode.ps1
+                invoke-expression -Command $PSScriptRoot/1.host/981.host-exit_maintenance_mode.ps1
            } ‘43’ {
                 cls
                 invoke-expression -Command $PSScriptRoot/1.host/997.host_rebooting.ps1
