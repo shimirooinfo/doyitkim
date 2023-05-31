@@ -14,7 +14,6 @@ function Show-Menu
      Write-Host "     >>>>>>>>>> Config Host <<<<<<<<<<"
      Write-Host "============================================="
      Write-Host "1: Create Cluster"
-     Write-Host "1: 클러스터 생성하기"
      Write-Host "2: Delete Cluster"
      Write-Host "3: Add Host"
      Write-Host "4: Add NTP"
