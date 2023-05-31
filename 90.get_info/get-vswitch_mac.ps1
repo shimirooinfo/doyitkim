@@ -2,15 +2,7 @@
 # ESXi Kernel Network Mac addresss  ¼öÁý Scripts
 #
 
-param(
-[string]$targetfile
-)
-
-$user = "lab\yhkim"
-$password = "vmware!0"
-$vcenter = "irvc01.iroo.int"
-#
-$targetfile ="../0.target/tgt_iroo.csv"
+. "$HOME/scripts/globalval.ps1"
 
 foreach ($f in (import-csv -path $targetfile))
 {

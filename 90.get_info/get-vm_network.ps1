@@ -1,11 +1,10 @@
 #
 # VM IP 정보 수집 Scripts
 #
-$user = "seadmin@vsphere.local"
-$password = "Vmware1!"
-$vcenter = "10.141.252.247"
 #
-$targetfile ="C:\scripts.v5\01_target\target100.csv"
+
+. "$HOME/scripts/globalval.ps1"
+
 $outputfile = "C:\scripts.v5\00_output\info-vmnet.txt"
 
 foreach ($f in (import-csv -path $targetfile))

@@ -1,6 +1,7 @@
 #
 # ssh start to host
 #
+
 . "$HOME/scripts/globalval.ps1"
 
 foreach ($f in (import-csv -path $TgtFile))

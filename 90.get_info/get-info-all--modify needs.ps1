@@ -2,12 +2,10 @@
 # vSphere 모든 정보 수집 Scripts  
 # 순서 - get mtu -> get-path-policy -> get vpg nic -> get-vswitch -> vsw NIC Teaming  -> bnx2x -> get-iscsi iqn -> lun path -> vm_network
 #                                      
-$user = "seadmin@vsphere.local"
-$password = "Vmware1!"
-$vcenter = "10.141.252.247"                
+. "$HOME/scripts/globalval.ps1"
+
 $device = "vmhba40"
 #
-$targetfile ="C:\scripts.v5\01_target\target100.csv"
 $outputfile = "C:\scripts.v5\00_output\get-info-all.txt"
 
 foreach ($f in (import-csv -path $targetfile))

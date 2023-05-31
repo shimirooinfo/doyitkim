@@ -2,9 +2,6 @@
 # ESXi NIC Teaming 설정 정책 수집 Scripts 
 #
 
-$user = "seadmin@vsphere.local"
-$password = "Vmware1!"
-$vcenter = "10.141.252.247"
 #
 $targetfile ="C:\scripts.v5\01_target\target100.csv"
 $outputfile ="C:\scripts.v5\00_output\info-vsw-nicteam.txt"

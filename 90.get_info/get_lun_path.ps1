@@ -1,12 +1,6 @@
 # 
 # get ESXi LUN Path infomation
 #
-
-$user = "seadmin@vsphere.local"
-$password = "Vmware1!"
-$vcenter = "10.141.252.247"
-#
-
 . "$HOME/scripts/globalval.ps1"
 
 foreach ($f in (import-csv -path $TgtFile))

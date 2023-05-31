@@ -1,13 +1,6 @@
 #
 # ESXi Virtual Switch MTU
 #
-# target ¿¿¿ ¿¿¿¿¿ ¿¿¿ ¿¿ ¿¿ ¿¿
-#
-#Param(
-#        [Parameter(Mandatory=$True,Position=1)]
-#        [string]$targetfile
-#)
-# target ¿¿¿ ¿¿¿¿¿ ¿¿¿ ¿¿ ¿¿ ¿¿
 $TgtFile = "../0.target/tgt_d80_all.csv"
 
 #$VcInfoFile = "../0.target/vc_iroo.csv"

@@ -1,6 +1,7 @@
 #
 # add host to vcenter
 #
+
 . "$HOME/scripts/globalval.ps1"
 #
 # Connect to the vCenter Server
