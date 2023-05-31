@@ -11,13 +11,6 @@
 
 . "$HOME/scripts/globalval.ps1"
 
-# Connect to the vCenter Server
-foreach ($VcInfo in (import-csv -path $VcInfoFile))
-{
-        Write-host "Connecting to vCenter Server: " -ForegroundColor Green -NoNewline; Write-Host $VcInfo.vc -ForegroundColor Yellow
-        Connect-VIServer -Server $VcInfo.vc -user $VcInfo.user -password $VcInfo.passwd -Protocol https
-}
-
 foreach ($f in (import-csv -path $TgtFile))
 {
 	echo $f.alias
@@ -29,6 +22,5 @@ foreach ($f in (import-csv -path $TgtFile))
 	{
 		$esxcli.storage.nmp.psp.roundrobin.deviceconfig.get($a.Device)
 	}
-
 }
 Disconnect-VIServer -Server * -Force -confirm:$false

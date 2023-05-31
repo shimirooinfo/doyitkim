@@ -10,13 +10,6 @@
 # target 파일을 매개변수로 받을때 아래 주석 처리
 . "$HOME/scripts/globalval.ps1"
 
-# Connect to the vCenter Server
-foreach ($VcInfo in (import-csv -path $VcInfoFile))
-{
-        Write-host "Connecting to vCenter Server: " -ForegroundColor Green -NoNewline; Write-Host $VcInfo.vc -ForegroundColor Yellow
-        Connect-VIServer -Server $VcInfo.vc -user $VcInfo.user -password $VcInfo.passwd -Protocol https
-}
-
 $time1 = "time1.daumkakao.io"
 $time2 = "time2.daumkakao.io"
 $time3 = "time3.daumkakao.io"

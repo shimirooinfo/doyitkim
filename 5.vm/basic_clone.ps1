@@ -11,19 +11,14 @@
 
 . "$HOME/scripts/globalval.ps1"
 
-# Connect to the vCenter Server
-foreach ($VcInfo in (import-csv -path $VcInfoFile))
-{
-        Write-host "Connecting to vCenter Server: " -ForegroundColor Green -NoNewline; Write-Host $VcInfo.vc -ForegroundColor Yellow
-        Connect-VIServer -Server $VcInfo.vc -user $VcInfo.user -password $VcInfo.passwd -Protocol https
-}
-
 $MstTmpl = "test-d80-image"
 $CsSpec = "linux-cs"
 $CsSpec_temp = "linux-cs-temp"
 
+$TgtClone = "$HOME/scripts/0.target/tgt-clone.csv"
+
 New-OSCustomizationSpec -OScustomizationSpec $CsSpec -name $CsSpec_temp
-foreach ($f in (import-csv -path $TgtFile ))
+foreach ($f in (import-csv -path $TgtClone ))
 {
 	Get-OSCustomizationNicMapping -Spec $CsSpec_temp | Set-OSCustomizationNicMapping -IpMode UseStaticIp -IpAddress $f.ip -SubnetMask 255.255.240.0 -DefaultGateway $f.gateway
 	Write-host "Deploying VM " -ForegroundColor Green -NoNewline; Write-Host $f.vm -ForegroundColor Yellow

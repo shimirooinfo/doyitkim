@@ -11,13 +11,6 @@
 
 . "$HOME/scripts/globalval.ps1"
 
-# Connect to the vCenter Server
-foreach ($VcInfo in (import-csv -path $VcInfoFile))
-{
-        Write-host "Connecting to vCenter Server: " -ForegroundColor Green -NoNewline; Write-Host $VcInfo.vc -ForegroundColor Yellow
-        Connect-VIServer -Server $VcInfo.vc -user $VcInfo.user -password $VcInfo.passwd -Protocol https
-}
-
 $sw_iscsi_dev = "vmhba64"
 
 foreach ($f in (import-csv -path $TgtFile))

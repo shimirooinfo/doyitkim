@@ -9,10 +9,6 @@ $vcenter = "10.141.252.247"
 
 . "$HOME/scripts/globalval.ps1"
 
-# Connect to the vCenter Server
-"{0} Connecting to vcenter server..."
-Connect-VIServer -Server $vcenter -user $user -password $password -Protocol https
-
 foreach ($f in (import-csv -path $TgtFile))
 {
 	echo "############################################" >> $OutputFile 

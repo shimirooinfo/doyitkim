@@ -10,10 +10,6 @@ $device = "vmhba40"
 $targetfile ="C:\scripts.v5\01_target\target100.csv"
 $outputfile = "C:\scripts.v5\00_output\get-info-all.txt"
 
-# Connect to the vCenter Server
-"{0} Connecting to vcenter server..."
-Connect-VIServer -Server $v.vc -user $v.user -password $password -Protocol https
-
 foreach ($f in (import-csv -path $targetfile))
 {
 	echo "############################################" >> $outputfile 

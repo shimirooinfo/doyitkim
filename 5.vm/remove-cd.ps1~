@@ -1,9 +1,0 @@
-# clone vm
-
-Connect-VIServer -Server irvc01.iroo.int -user yhkim@iroo.int -password vmware!0 -Protocol https
-foreach ($f in (import-csv -path $targetfile ))
-{
-	echo $f.name
-	Get-Harddisk -vm $f.name -Name "하드 디스크 2" |remove-harddisk -deletepermanently -confirm:$false
-}
-Disconnect-VIServer -Server * -Force -confirm:$false

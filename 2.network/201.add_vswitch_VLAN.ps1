@@ -11,13 +11,6 @@
 
 . "$HOME/scripts/globalval.ps1"
 
-# Connect to the vCenter Server
-foreach ($VcInfo in (import-csv -path $VcInfoFile))
-{
-        Write-host "Connecting to vCenter Server: " -ForegroundColor Green -NoNewline; Write-Host $VcInfo.vc -ForegroundColor Yellow
-        Connect-VIServer -Server $VcInfo.vc -user $VcInfo.user -password $VcInfo.passwd -Protocol https
-}
-
 $SVC1_PG_NAME = "service-for-v10"
 $VMOT_PG_NAME = "mgmt-for-vmotion"
 $MGMT_PG_NAME = "mgmt-for-vcenter"
