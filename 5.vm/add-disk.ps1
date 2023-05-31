@@ -1,5 +1,6 @@
+#
 # clone vm
-
+#
 $vcinfofile ="C:\scripts.v5\01_target\vcenter.csv"
 $targetfile ="C:\scripts.v5\00_clone\target\d60-s1.csv"
 
