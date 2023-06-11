@@ -1,0 +1,2 @@
+ip,hname,alias,location,cluster,datastore,iscsi1,iscsi2,tgt1,tgt2,tgt3,tgt4,vmotion,path,FileName,clstlist
+10.10.10.101,irvs01,irvs01.iroo.int,DC-MGMT,MGMT-CLUST,irvs-iLocal01,10.10.10.21,10.10.10.21,10.10.10.10,10.10.10.10,10.93.112.181,10.93.113.181,10.93.115.21,/vmfs/volumes/d80-s1-lun1/,VMware-VMvisor-Installer-7.0.0.update02-17867351.x86_64-DellEMC_Customized-A05.zip,MGMT-CLUST
