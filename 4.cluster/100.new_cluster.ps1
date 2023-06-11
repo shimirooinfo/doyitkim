@@ -6,7 +6,7 @@
 
 foreach ($f in (import-csv -path $TgtFile))
 {
-	New-Cluster -Location $f.datacenter  -Name $f.clstlist
+	New-Cluster -Location $f.location  -Name $f.clstlist
 	#
 	# Remove-Cluster -Location $f.location -Name $f.clstlist
 	#
