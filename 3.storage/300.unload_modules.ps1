@@ -2,9 +2,6 @@
 # Unload module
 #
 
-$unload_module1="bnx2i"
-$unload_module2="fcoe"
-
 . "$HOME/scripts/globalval.ps1"
 #
 

@@ -3,10 +3,6 @@
 #
 . "$HOME/scripts/globalval.ps1"
 
-$time1 = "time1.daumkakao.io"
-$time2 = "time2.daumkakao.io"
-$time3 = "time3.daumkakao.io"
-
 foreach ($f in (import-csv -path $TgtFile))
 {
 	echo $f.alias

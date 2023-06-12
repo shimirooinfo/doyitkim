@@ -4,7 +4,7 @@
 
 . "$HOME/scripts/globalval.ps1"
 
-$sw_iscsi_dev = "vmhba64"
+#$sw_iscsi_dev = "vmhba64"
 
 foreach ($f in (import-csv -path $TgtFile))
 {

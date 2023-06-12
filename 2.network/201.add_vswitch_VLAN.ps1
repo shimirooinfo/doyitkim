@@ -4,16 +4,6 @@
 
 . "$HOME/scripts/globalval.ps1"
 
-$SVC1_PG_NAME = "service-for-v10"
-$VMOT_PG_NAME = "mgmt-for-vmotion"
-$MGMT_PG_NAME = "mgmt-for-vcenter"
-$ISC1_PG_NAME = "service-for-iscsi1"
-$ISC2_PG_NAME = "service-for-iscsi2"
-$ISC1_PG_VLAN = "50"
-$ISC2_PG_VLAN = "60"
-$SVC1_PG_VLAN = "10"
-#
-
 foreach ($f in (import-csv -path $TgtFile))
 {
 	echo $f.alias
