@@ -4,13 +4,16 @@
 
 . "$HOME/scripts/globalval.ps1"
 
-$sw_iscsi = "vmhba64"
+#$sw_iscsi = "vmhba64"
 #
-# get-vmhost irvs01.iroo.int|get-vmhosthba -type block |where {$_.Model -eq "PERC H730 Mini"} |Select -ExpandProperty Device -first 1
+# get-vmhost irvs01.iroo.int|get-vmhosthba -type IScsi |where {$_.Model -eq "iSCSI Software Adapter"} |Select -ExpandProperty Device -first 1
 #
 
 foreach ($f in (import-csv -path $TgtFile))
 {
+
+ 	$sw_iscsi = Get-VMhost $f.alias |Get-VMHostHba -Type IScsi | Where {$_.Model -eq "iSCSI Software Adapter"}
+
 	echo $f.alias
 	$esxcli = Get-Esxcli -vmhost $f.alias
 	$esxcli.iscsi.networkportal.add($sw_iscsi,$true,"vmk2")
